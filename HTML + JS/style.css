@@ -12,3 +12,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.results {
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    text-align: center;
+}
