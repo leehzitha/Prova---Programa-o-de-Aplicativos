@@ -7,8 +7,8 @@ PARTE 1 – GIT - TEÓRICO/PRÁTICO
 	Pull request é um pedido para juntar sua branch com outra (geralmente com a main ou develop). Os pull requests permitem a revisão do código antes de colocá-lo na main, disparar pipelines, testes automáticos, além de proporcionar a aprovação de mudanças com segurança
 
 3 - Qual a diferença entre git commit e git push?
-	git commit: Salva uma versão do projeto, geralmente com uma descrição;
-	git push: Envia a versão salva para um repositório remoto
+	git commit: Salva uma versão do projeto, sempre acompanhado de uma descrição;
+	git push: Envia a versão salva para um repositório remoto.
 
 4 – O que são conventional commits e conventional branches? Para qual finalidade eles seriam utilizados e resolveriam qual tipo de problema?
 	Conventional Commits é um padrão de escrita de mensagens de commit.  Ele é utilizado para obter uma leitura fácil do histórico de commits, além de ajudar em CI / CD;
@@ -16,7 +16,6 @@ PARTE 1 – GIT - TEÓRICO/PRÁTICO
 
 5 - Você clonou um repositório remoto, irá criar uma branch chamada feature/login para fazer alguns commits. Escreva os comandos e passo a passo necessários para:
  a) Enviar essa branch para o repositório remoto.
-    git branch feature/login
-    git push
-    
+    git checkout -b feature/login
+	git push
  b) Criar um pull request no GitHub.
