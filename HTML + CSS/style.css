@@ -7,14 +7,14 @@
 }
 
 .square1 {
-    width: 40vw;
+    width: 30vw;
     height: 20vh;
     display: flex;
     align-items: center;
 }
 
 .square2 {
-    width: 40vw;
+    width: 30vw;
     height: 20vh;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@
 }
 
 .square3 {
-    width: 80vw;
+    width: 60vw;
     height: 20vh;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@
 }
 
 .littleSquare {
-    width: 7vw;
+    width: 4vw;
     height: 7vh;
 }
 
