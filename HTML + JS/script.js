@@ -15,7 +15,7 @@ const maxNumber = () => {
         document.getElementById('result').innerHTML = `Maior: ${num3}`;
     }
     else {
-        document.getElementById('result').innerHTML = 'Os números são iguais / Não existe um único número maior!'
+        document.getElementById('result').innerHTML = 'Não existe um único número maior!'
     }
 
     let media = (num1 + num2 + num3 ) / 3;

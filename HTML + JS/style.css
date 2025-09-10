@@ -1,23 +1,52 @@
 .inputs {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 10vw;
     gap: 2vh;
 }
 
 body {
     display: flex;
-    flex-direction: row;
-    gap: 2vw;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    margin-top: 20vh;
+    background-color: rgb(175, 174, 174);
 }
 
 .results {
     display: flex;
     flex-direction: column;
+    font-size: small;
 }
 
 p{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input {
+    border-radius: 6px;
+    border-width: 0px;
+    box-shadow: 2px 3px 11px rgb(153, 151, 151);
+    text-align: center;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#botao {
+    background-color: rgb(138, 133, 133);
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    padding: 5px 9px;
+}
+
+.corpo {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

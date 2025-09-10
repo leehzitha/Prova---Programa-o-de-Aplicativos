@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="inputs">
-        <input type="number" id="number1">
-        <input type="number" id="number2">
-        <input type="number" id="number3">
+    <div class="corpo">
+        <div class="inputs">
+            <input type="number" placeholder="Insira o primeiro número" class="input" id="number1">
+            <input type="number" class="input" placeholder="Insira o segundo número" id="number2">
+            <input type="number" class="input" placeholder="Insira o terceiro número" id="number3">
+            <button id="botao" onclick="maxNumber()">Clique aqui</button>
+        </div>
+    
+        <div class="results">
+            <p id="result"></p>
+            <p id="media"></p>
+        </div>
     </div>
-    <button id="botao" onclick="maxNumber()">Clique aqui</button>
-    <div class="results">
-        <p id="result"></p>
-        <p id="media"></p>
-    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
