@@ -1,0 +1,53 @@
+.blue {
+    background-color: #03b8ff;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.square1 {
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.square2 {
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.square3 {
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.littleSquare {
+    width: 7vw;
+    height: 7vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cima {
+    display: flex;
+    flex-direction: row;
+}
+
+.baixo {
+    display: flex;
+    flex-direction: row;
+}

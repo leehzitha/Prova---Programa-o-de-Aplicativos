@@ -1,0 +1,22 @@
+PARTE 1 – GIT - TEÓRICO/PRÁTICO
+
+1 - Em que situações você usaria o arquivo .gitignore? Cite exemplos práticos e explique a utilidade deste arquivo.
+	Quando existem arquivos que não devem / não precisam ser integrados ao projeto, como a pasta obj e a bin. Geralmente, cada linguagem possui uma gama diferente de arquivos que se enquadram nessa condição. 
+
+2 - O que é um pull request no GitHub? Qual a importância dele para projetos colaborativos?
+	Pull request é um pedido para juntar sua branch com outra (geralmente com a main ou develop). Os pull requests permitem a revisão do código antes de colocá-lo na main, disparar pipelines, testes automáticos, além de proporcionar a aprovação de mudanças com segurança
+
+3 - Qual a diferença entre git commit e git push?
+	git commit: Salva uma versão do projeto, geralmente com uma descrição;
+	git push: Envia a versão salva para um repositório remoto
+
+4 – O que são conventional commits e conventional branches? Para qual finalidade eles seriam utilizados e resolveriam qual tipo de problema?
+	Conventional Commits é um padrão de escrita de mensagens de commit.  Ele é utilizado para obter uma leitura fácil do histórico de commits, além de ajudar em CI / CD;
+	Conventional branches, assim como o Conventional Commits, é um padrão de nomeação de branches. Ele é utilizado para facilitar o processo de desenvolvimento e controle do projeto.
+
+5 - Você clonou um repositório remoto, irá criar uma branch chamada feature/login para fazer alguns commits. Escreva os comandos e passo a passo necessários para:
+ a) Enviar essa branch para o repositório remoto.
+    git branch feature/login
+    git push
+    
+ b) Criar um pull request no GitHub.
